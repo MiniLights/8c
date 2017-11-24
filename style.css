@@ -1,0 +1,234 @@
+*{font-family: 'Roboto', sans-serif;}
+.canvasjs-chart-credit{
+  display: none;
+}
+body{
+  padding: 0;
+  margin: 0;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('https://www.w3schools.com/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+  -moz-transition: 2s ease-out;
+  -o-transition: 2s ease-out;
+  transition: 2s ease-out;
+  }
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
+/* The container */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+    position: absolute;
+    opacity: 0;
+}
+
+/* Create a custom checkbox */
+.checkmarkR {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+.checkmarkY {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+.checkmarkG {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmarkR {
+   background-color: #ccc;
+}
+.container:hover input ~ .checkmarkY {
+   background-color: #ccc;
+}
+.container:hover input ~ .checkmarkG {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmarkR {
+    background-color: #e74c3c;
+}
+.container input:checked ~ .checkmarkY {
+    background-color: #f1c40f;
+}
+.container input:checked ~ .checkmarkG {
+    background-color: #2ecc71;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmarkR:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.checkmarkY:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.checkmarkG:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmarkR:after {
+    display: block;
+}
+
+.container input:checked ~ .checkmarkY:after {
+    display: block;
+}
+.container input:checked ~ .checkmarkG:after {
+    display: block;
+}
+/* Style the checkmark/indicator */
+.container .checkmarkR:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.container .checkmarkY:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.container .checkmarkG:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.inputBUT {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 460px;}
+.FixItFilixe{
+  margin-left: 0;
+margin-top: 20px;
+}
+button{
+  background-color: #fc1e3f;
+border: none;
+color: white;
+padding: 5px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+}
+#Wisbutton1{
+  background-color: #f1c40f;
+}
+.fa-gear:before, .fa-cog:before {
+    content: "\f013";
+    background: #00b8ff;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 20%;
+    color: #fff;
+}
+.hr7eh{
+background: #eee;
+padding-bottom: 20px;
+}
+h2{
+  color: #f66;
+}

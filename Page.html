@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>MiniLights</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="REFRESH" content="300;URL=index.html">
+    <link rel="shortcut icon" href="https://s-media-cache-ak0.pinimg.com/originals/fd/08/c5/fd08c5c6ff4199c6fe2463970e645d84.jpg">
+    <script src="https://use.fontawesome.com/b2c7a04c7d.js"></script>
+</script>
+    </head>
+    <body>
+
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+
+    <table id="myTable">
+      <tr>
+        <th>Name</th>
+        <th>Notes</th>
+        <th>Bad</th>
+        <th>Neutral</th>
+        <th>Good</th>
+      </tr>
+      <tr>
+          <td>Adrian Abdulovski</td>
+          <td><label class="container"><textarea name="name" rows="3" cols="60" data-store="1"></textarea></td>
+          <td><label class="container">Red<input id="RedOne" type="checkbox" checked="checked">
+            <span class="checkmarkR"></span>
+          </label></td>
+          <td><label class="container">Yellow<input id="YellowOne" type="checkbox" checked="checked">
+            <span class="checkmarkY"></span>
+          </label></td>
+          <td><label class="container">Green<input id="GreenOne" type="checkbox" checked="checked">
+            <span class="checkmarkG"></span>
+          </label></td>
+      </tr>
+      <tr>
+          <td>Geneva Blake</td>
+          <td><label class="container"><textarea name="name" rows="3" cols="60" data-store="2"></textarea></td>
+          <td><label class="container">Red<input id="RedTwo" type="checkbox" checked="checked">
+            <span class="checkmarkR"></span>
+          </label></td>
+          <td><label class="container">Yellow<input id="YellowTwo" type="checkbox" checked="checked">
+            <span class="checkmarkY"></span>
+          </label></td>
+          <td><label class="container">Green<input id="GreenTwo" type="checkbox" checked="checked">
+            <span class="checkmarkG"></span>
+          </label></td>
+      </tr>
+      <tr>
+          <td>Lachlan Couch</td>
+          <td><label class="container"><textarea name="name" rows="3" cols="60" data-store="3"></textarea></td>
+          <td><label class="container">Red<input id="RedThree" type="checkbox" checked="checked">
+            <span class="checkmarkR"></span>
+          </label></td>
+          <td><label class="container">Yellow<input id="YellowThree" type="checkbox" checked="checked">
+            <span class="checkmarkY"></span>
+          </label></td>
+          <td><label class="container">Green<input id="GreenThree" type="checkbox" checked="checked">
+            <span class="checkmarkG"></span>
+          </label></td>
+      </tr>
+      <tr>
+          <td>Ashile Cucanic</td>
+          <td><label class="container"><textarea name="name" rows="3" cols="60" data-store="4"></textarea></td>
+          <td><label class="container">Red<input id="RedFour" type="checkbox" checked="checked">
+            <span class="checkmarkR"></span>
+          </label></td>
+          <td><label class="container">Yellow<input id="YellowFour" type="checkbox" checked="checked">
+            <span class="checkmarkY"></span>
+          </label></td>
+          <td><label class="container">Green<input id="GreenFour" type="checkbox" checked="checked">
+            <span class="checkmarkG"></span>
+          </label></td>
+      </tr>
+      <tr>
+          <td>Fynlay Dams</td>
+          <td><label class="container"><textarea name="name" rows="3" cols="60" data-store="5"></textarea></td>
+          <td><label class="container">Red<input id="RedFive" type="checkbox" checked="checked">
+            <span class="checkmarkR"></span>
+          </label></td>
+          <td><label class="container">Yellow<input id="YellowFive" type="checkbox" checked="checked">
+            <span class="checkmarkY"></span>
+          </label></td>
+          <td><label class="container">Green<input id="GreenFive" type="checkbox" checked="checked">
+            <span class="checkmarkG"></span>
+          </label></td>
+      </tr>
+      <tr>
+          <td>Tori-May Dawson</td>
+          <td><label class="container"><textarea name="name" rows="3" cols="60"  data-store="6"></textarea></td>
+          <td><label class="container">Red<input id="RedSix" type="checkbox" checked="checked">
+            <span class="checkmarkR"></span>
+          </label></td>
+          <td><label class="container">Yellow<input id="YellowSix" type="checkbox" checked="checked">
+            <span class="checkmarkY"></span>
+          </label></td>
+          <td><label class="container">Green<input id="GreenSix" type="checkbox" checked="checked">
+            <span class="checkmarkG"></span>
+          </label></td>
+      </tr>
+      <tr>
+          <td>Declan Dixcon</td>
+          <td><label class="container"><textarea name="name" rows="3" cols="60" data-store="7"></textarea></td>
+          <td><label class="container">Red<input id="RedSeven" type="checkbox" checked="checked">
+            <span class="checkmarkR"></span>
+          </label></td>
+          <td><label class="container">Yellow<input id="YellowSeven" type="checkbox" checked="checked">
+            <span class="checkmarkY"></span>
+          </label></td>
+          <td><label class="container">Green<input id="GreenSeven" type="checkbox" checked="checked">
+            <span class="checkmarkG"></span>
+          </label></td>
+      </tr>
+      <tr>
+          <td>Joshua Dunstan</td>
+          <td><label class="container"><textarea name="name" rows="3" cols="60" data-store="8"></textarea></td>
+          <td><label class="container">Red<input id="RedEight" type="checkbox" checked="checked">
+            <span class="checkmarkR"></span>
+          </label></td>
+          <td><label class="container">Yellow<input id="YellowEight" type="checkbox" checked="checked">
+            <span class="checkmarkY"></span>
+          </label></td>
+          <td><label class="container">Green<input id="GreenEight" type="checkbox" checked="checked">
+            <span class="checkmarkG"></span>
+          </label></td>
+      </tr>
+      <tr>
+          <td>Joshua Ferlazzo</td>
+          <td><label class="container"><textarea name="name" rows="3" cols="60" data-store="9"></textarea></td>
+          <td><label class="container">Red<input id="RedNine" type="checkbox" checked="checked">
+            <span class="checkmarkR"></span>
+          </label></td>
+          <td><label class="container">Yellow<input id="YellowNine" type="checkbox" checked="checked">
+            <span class="checkmarkY"></span>
+          </label></td>
+          <td><label class="container">Green<input id="GreenNine" type="checkbox" checked="checked">
+            <span class="checkmarkG"></span>
+          </label></td>
+      </tr>
+      <tr>
+          <td>Zach Graichen</td>
+          <td><label class="container"><textarea name="name" rows="3" cols="60" data-store="10"></textarea></td>
+          <td><label class="container">Red<input id="RedTen" type="checkbox" checked="checked">
+            <span class="checkmarkR"></span>
+          </label></td>
+          <td><label class="container">Yellow<input id="YellowTen" type="checkbox" checked="checked">
+            <span class="checkmarkY"></span>
+          </label></td>
+          <td><label class="container">Green<input id="GreenTen" type="checkbox" checked="checked">
+            <span class="checkmarkG"></span>
+          </label></td>
+      </tr>
+      <tr>
+          <td>Isac Kawaguch</td>
+          <td><label class="container"><textarea name="name" rows="3" cols="60" data-store="11"></textarea></td>
+          <td><label class="container">Red<input id="RedEleven" type="checkbox" checked="checked">
+            <span class="checkmarkR"></span>
+          </label></td>
+          <td><label class="container">Yellow<input id="YellowEleven" type="checkbox" checked="checked">
+            <span class="checkmarkY"></span>
+          </label></td>
+          <td><label class="container">Green<input id="GreenEleven" type="checkbox" checked="checked">
+            <span class="checkmarkG"></span>
+          </label></td>
+      </tr>
+      <tr>
+          <td>Angel Mann</td>
+          <td><label class="container"><textarea name="name" rows="3" cols="60" data-store="12"></textarea></td>
+          <td><label class="container">Red<input id="RedTwelve" type="checkbox" checked="checked">
+            <span class="checkmarkR"></span>
+          </label></td>
+          <td><label class="container">Yellow<input id="YellowTwelve" type="checkbox" checked="checked">
+            <span class="checkmarkY"></span>
+          </label></td>
+          <td><label class="container">Green<input id="GreenTwelve" type="checkbox" checked="checked">
+            <span class="checkmarkG"></span>
+          </label></td>
+      </tr>
+      <tr>
+          <td>Raikwon Molleni</td>
+          <td><label class="container"><textarea name="name" rows="3" cols="60" data-store="13"></textarea></td>
+          <td><label class="container">Red<input id="RedThirteen" type="checkbox" checked="checked">
+            <span class="checkmarkR"></span>
+          </label></td>
+          <td><label class="container">Yellow<input id="YellowThirteen" type="checkbox" checked="checked">
+            <span class="checkmarkY"></span>
+          </label></td>
+          <td><label class="container">Green<input id="GreenThirteen" type="checkbox" checked="checked">
+            <span class="checkmarkG"></span>
+          </label></td>
+      </tr>
+      <tr>
+          <td>Avery Morley</td>
+          <td><label class="container"><textarea name="name" rows="3" cols="60" data-store="14"></textarea></td>
+          <td><label class="container">Red<input id="RedFourteen" type="checkbox" checked="checked">
+            <span class="checkmarkR"></span>
+          </label></td>
+          <td><label class="container">Yellow<input id="YellowFourteen" type="checkbox" checked="checked">
+            <span class="checkmarkY"></span>
+          </label></td>
+          <td><label class="container">Green<input id="GreenFourteen" type="checkbox" checked="checked">
+            <span class="checkmarkG"></span>
+          </label></td>
+      </tr>
+      <tr>
+          <td>Thomas Needham</td>
+          <td><label class="container"><textarea name="name" rows="3" cols="60" data-store="15"></textarea></td>
+          <td><label class="container">Red<input id="RedFifthteen" type="checkbox" checked="checked">
+            <span class="checkmarkR"></span>
+          </label></td>
+          <td><label class="container">Yellow<input id="YellowFifthteen" type="checkbox" checked="checked">
+            <span class="checkmarkY"></span>
+          </label></td>
+          <td><label class="container">Green<input id="GreenFifthteen" type="checkbox" checked="checked">
+            <span class="checkmarkG"></span>
+          </label></td>
+      </tr>
+      <tr>
+          <td>Ryan Robinson</td>
+          <td><label class="container"><textarea name="name" rows="3" cols="60" data-store="16"></textarea></td>
+          <td><label class="container">Red<input id="RedSixteen" type="checkbox" checked="checked">
+            <span class="checkmarkR"></span>
+          </label></td>
+          <td><label class="container">Yellow<input id="YellowSixteen" type="checkbox" checked="checked">
+            <span class="checkmarkY"></span>
+          </label></td>
+          <td><label class="container">Green<input id="GreenSixteen" type="checkbox" checked="checked">
+            <span class="checkmarkG"></span>
+          </label></td>
+      </tr>
+      <tr>
+          <td>Luke Simpson</td>
+          <td><label class="container"><textarea name="name" rows="3" cols="60" data-store="40" data-store="17"></textarea></td>
+          <td><label class="container">Red<input id="RedSeventeen" type="checkbox" checked="checked">
+            <span class="checkmarkR"></span>
+          </label></td>
+          <td><label class="container">Yellow<input id="YellowSeventeen" type="checkbox" checked="checked">
+            <span class="checkmarkY"></span>
+          </label></td>
+          <td><label class="container">Green<input id="GreenSeventeen" type="checkbox" checked="checked">
+            <span class="checkmarkG"></span>
+          </label></td>
+      </tr>
+      <tr>
+          <td>Tiana Spyrou</td>
+          <td><label class="container"><textarea name="name" rows="3" cols="60" data-store="41" data-store="18"></textarea></td>
+          <td><label class="container">Red<input id="RedEightteen" type="checkbox" checked="checked">
+            <span class="checkmarkR"></span>
+          </label></td>
+          <td><label class="container">Yellow<input id="YellowEightteen" type="checkbox" checked="checked">
+            <span class="checkmarkY"></span>
+          </label></td>
+          <td><label class="container">Green<input id="GreenEightteen" type="checkbox" checked="checked">
+            <span class="checkmarkG"></span>
+          </label></td>
+      </tr>
+      <tr>
+          <td>Jasmine Stankov</td>
+          <td><label class="container"><textarea name="name" rows="3" cols="60" data-store="42" data-store="19"></textarea></td>
+          <td><label class="container">Red<input id="RedNineteen" type="checkbox" checked="checked">
+            <span class="checkmarkR"></span>
+          </label></td>
+          <td><label class="container">Yellow<input id="YellowNineteen" type="checkbox" checked="checked">
+            <span class="checkmarkY"></span>
+          </label></td>
+          <td><label class="container">Green<input id="GreenNineteen" type="checkbox" checked="checked">
+            <span class="checkmarkG"></span>
+          </label></td>
+      </tr>
+      <tr>
+          <td>Joshua Starr</td>
+          <td><label class="container"><textarea name="name" rows="3" cols="60" data-store="43" data-store="20"></textarea></td>
+          <td><label class="container">Red<input id="RedTwenty" type="checkbox" checked="checked">
+            <span class="checkmarkR"></span>
+          </label></td>
+          <td><label class="container">Yellow<input id="YellowTwenty" type="checkbox" checked="checked">
+            <span class="checkmarkY"></span>
+          </label></td>
+          <td><label class="container">Green<input id="GreenTwenty" type="checkbox" checked="checked">
+            <span class="checkmarkG"></span>
+          </label></td>
+      </tr>
+      <tr>
+          <td>Girish Tamilchelvan</td>
+          <td><label class="container"><textarea name="name" rows="3" cols="60" data-store="44" data-store="21"></textarea></td>
+          <td><label class="container">Red<input id="RedTwentyone" type="checkbox" checked="checked">
+            <span class="checkmarkR"></span>
+          </label></td>
+          <td><label class="container">Yellow<input id="YellowTwentyone" type="checkbox" checked="checked">
+            <span class="checkmarkY"></span>
+          </label></td>
+          <td><label class="container">Green<input id="GreenTwentyone" type="checkbox" checked="checked">
+            <span class="checkmarkG"></span>
+          </label></td>
+      </tr>
+      <tr>
+          <td>Jett Templer</td>
+          <td><label class="container"><textarea name="name" rows="3" cols="60" data-store="45" data-store="22"></textarea></td>
+          <td><label class="container">Red<input id="RedTwentytwo" type="checkbox" checked="checked">
+            <span class="checkmarkR"></span>
+          </label></td>
+          <td><label class="container">Yellow<input id="YellowTwentytwo" type="checkbox" checked="checked">
+            <span class="checkmarkY"></span>
+          </label></td>
+          <td><label class="container">Green<input id="GreenTwentytwo" type="checkbox" checked="checked">
+            <span class="checkmarkG"></span>
+          </label></td>
+      </tr>
+      <tr>
+          <td>Leo Valladares</td>
+          <td><label class="container"><textarea name="name" rows="3" cols="60" data-store="23"></textarea></td>
+          <td><label class="container">Red<input id="RedTwentythree" type="checkbox" checked="checked">
+            <span class="checkmarkR"></span>
+          </label></td>
+          <td><label class="container">Yellow<input id="YellowTwentythree" type="checkbox" checked="checked">
+            <span class="checkmarkY"></span>
+          </label></td>
+          <td><label class="container">Green<input id="GreenTwentythree" type="checkbox" checked="checked">
+            <span class="checkmarkG"></span>
+          </label></td>
+      </tr>
+    </table>
+    <div class="Setfex" style="display:none;text-align: center;">
+      <h1>Settings</h1>
+      <h2>NOT DONE</h2>
+        <button type="button" name="button">RYG MODE: ON</button>
+        <br>
+        <button type="button" name="button">CLASS: 8C</button>
+    </div>
+    <div class="hr7eh">
+    <input type="button" id="ReserveerButton1" value="Save" class="inputBUT" onclick="Save()"/>
+    <input type="button" id="Wisbutton1" value="Delete" class="inputBUT FixItFilixe" onclick="wis()"/>
+    <button type="button" name="button" onclick="window.location.href='index.html'">Logout</button>
+    <a id="SetFix" href="#"><i class="fa fa-cog" aria-hidden="true"></i></a>
+  </div>
+<script>
+    function myFunction() {
+      var input, filter, table, tr, td, i;
+      input = document.getElementById("myInput");
+      filter = input.value.toUpperCase();
+      table = document.getElementById("myTable");
+      tr = table.getElementsByTagName("tr");
+      for (i = 0; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td")[0];
+        if (td) {
+          if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            tr[i].style.display = "";
+          } else {
+            tr[i].style.display = "none";
+          }
+        }
+      }
+    }
+</script>
+<script>
+  function Save(){
+    var RedOne = document.getElementById('RedOne');localStorage.setItem('RedOne', RedOne.checked);
+    var YellowOne = document.getElementById('YellowOne');localStorage.setItem('YellowOne', YellowOne.checked);
+    var GreenOne = document.getElementById('GreenOne');localStorage.setItem('GreenOne', GreenOne.checked);
+    var RedTwo = document.getElementById('RedTwo');localStorage.setItem('RedTwo', RedTwo.checked);
+    var YellowTwo = document.getElementById('YellowTwo');localStorage.setItem('YellowTwo', YellowTwo.checked);
+    var GreenTwo = document.getElementById('GreenTwo');localStorage.setItem('GreenTwo', GreenTwo.checked);
+    var RedThree = document.getElementById('RedThree');localStorage.setItem('RedThree', RedThree.checked);
+    var YellowThree = document.getElementById('YellowThree');localStorage.setItem('YellowThree', YellowThree.checked);
+    var GreenThree = document.getElementById('GreenThree');localStorage.setItem('GreenThree', GreenThree.checked);
+    var RedFour = document.getElementById('RedFour');localStorage.setItem('RedFour', RedFour.checked);
+    var YellowFour = document.getElementById('YellowFour');localStorage.setItem('YellowFour', YellowFour.checked);
+    var GreenFour = document.getElementById('GreenFour');localStorage.setItem('GreenFour', GreenFour.checked);
+    var RedFive = document.getElementById('RedFive');localStorage.setItem('RedFive', RedFive.checked);
+    var YellowFive = document.getElementById('YellowFive');localStorage.setItem('YellowFive', YellowFive.checked);
+    var GreenFive = document.getElementById('GreenFive');localStorage.setItem('GreenFive', GreenFive.checked);
+    var RedSix = document.getElementById('RedSix');localStorage.setItem('RedSix', RedSix.checked);
+    var YellowSix = document.getElementById('YellowSix');localStorage.setItem('YellowSix', YellowSix.checked);
+    var GreenSix = document.getElementById('GreenSix');localStorage.setItem('GreenSix', GreenSix.checked);
+    var RedSeven = document.getElementById('RedSeven');localStorage.setItem('RedSeven', RedSeven.checked);
+    var YellowSeven = document.getElementById('YellowSeven');localStorage.setItem('YellowSeven', YellowSeven.checked);
+    var GreenSeven = document.getElementById('GreenSeven');localStorage.setItem('GreenSeven', GreenSeven.checked);
+    var RedEight = document.getElementById('RedEight');localStorage.setItem('RedEight', RedEight.checked);
+    var YellowEight = document.getElementById('YellowEight');localStorage.setItem('YellowEight', YellowEight.checked);
+    var GreenEight = document.getElementById('GreenEight');localStorage.setItem('GreenEight', GreenEight.checked);
+    var RedNine = document.getElementById('RedNine');localStorage.setItem('RedNine', RedNine.checked);
+    var YellowNine = document.getElementById('YellowNine');localStorage.setItem('YellowNine', YellowNine.checked);
+    var GreenNine = document.getElementById('GreenNine');localStorage.setItem('GreenNine', GreenNine.checked);
+    var RedTen = document.getElementById('RedTen');localStorage.setItem('RedTen', RedTen.checked);
+    var YellowTen = document.getElementById('YellowTen');localStorage.setItem('YellowTen', YellowTen.checked);
+    var GreenTen = document.getElementById('GreenTen');localStorage.setItem('GreenTen', GreenTen.checked);
+    var RedEleven = document.getElementById('RedEleven');localStorage.setItem('RedEleven', RedEleven.checked);
+    var YellowEleven = document.getElementById('YellowEleven');localStorage.setItem('YellowEleven', YellowEleven.checked);
+    var GreenEleven = document.getElementById('GreenEleven');localStorage.setItem('GreenEleven', GreenEleven.checked);
+    var RedTwelve = document.getElementById('RedTwelve');localStorage.setItem('RedTwelve', RedEleven.checked);
+    var YellowTwelve = document.getElementById('YellowTwelve');localStorage.setItem('YellowTwelve', YellowTwelve.checked);
+    var GreenTwelve = document.getElementById('GreenTwelve');localStorage.setItem('GreenTwelve', GreenTwelve.checked);
+    var RedThirteen = document.getElementById('RedThirteen');localStorage.setItem('RedThirteen', RedThirteen.checked);
+    var YellowThirteen = document.getElementById('YellowThirteen');localStorage.setItem('YellowThirteen', YellowThirteen.checked);
+    var GreenThirteen = document.getElementById('GreenThirteen');localStorage.setItem('GreenThirteen', GreenThirteen.checked);
+    var RedFourteen = document.getElementById('RedFourteen');localStorage.setItem('RedFourteen', RedFourteen.checked);
+    var YellowFourteen = document.getElementById('YellowFourteen');localStorage.setItem('YellowFourteen', YellowFourteen.checked);
+    var GreenFourteen = document.getElementById('GreenFourteen');localStorage.setItem('GreenFourteen', GreenFourteen.checked);
+    var RedFifthteen = document.getElementById('RedFifthteen');localStorage.setItem('RedFifthteen', RedFifthteen.checked);
+    var YellowFifthteen = document.getElementById('YellowFifthteen');localStorage.setItem('YellowFifthteen', YellowFifthteen.checked);
+    var GreenFifthteen = document.getElementById('GreenFifthteen');localStorage.setItem('GreenFifthteen', GreenFifthteen.checked);
+    var RedSixteen = document.getElementById('RedSixteen');localStorage.setItem('RedSixteen', RedSixteen.checked);
+    var YellowSixteen = document.getElementById('YellowSixteen');localStorage.setItem('YellowSixteen', YellowSixteen.checked);
+    var GreenSixteen = document.getElementById('GreenSixteen');localStorage.setItem('GreenSixteen', GreenSixteen.checked);
+    var RedSeventeen = document.getElementById('RedSeventeen');localStorage.setItem('RedSeventeen', RedSeventeen.checked);
+    var YellowSeventeen = document.getElementById('YellowSeventeen');localStorage.setItem('YellowSeventeen', YellowSeventeen.checked);
+    var GreenSeventeen = document.getElementById('GreenSeventeen');localStorage.setItem('GreenSeventeen', GreenSeventeen.checked);
+    var RedEightteen = document.getElementById('RedEightteen');localStorage.setItem('RedEightteen', RedEightteen.checked);
+    var YellowEightteen = document.getElementById('YellowEightteen');localStorage.setItem('YellowEightteen', YellowEightteen.checked);
+    var GreenEightteen = document.getElementById('GreenEightteen');localStorage.setItem('GreenEightteen', GreenEightteen.checked);
+    var RedNineteen = document.getElementById('RedNineteen');localStorage.setItem('RedNineteen', RedNineteen.checked);
+    var YellowNineteen = document.getElementById('YellowNineteen');localStorage.setItem('YellowNineteen', YellowNineteen.checked);
+    var GreenNineteen = document.getElementById('GreenNineteen');localStorage.setItem('GreenNineteen', GreenNineteen.checked);
+    var YellowTwenty = document.getElementById('YellowTwenty');localStorage.setItem('YellowTwenty', YellowTwenty.checked);
+    var GreenTwenty = document.getElementById('GreenTwenty');localStorage.setItem('GreenTwenty', GreenTwenty.checked);
+    var RedTwentyone = document.getElementById('RedTwentyone');localStorage.setItem('RedTwentyone', RedTwentyone.checked);
+    var YellowTwentyone = document.getElementById('YellowTwentyone');localStorage.setItem('YellowTwentyone', YellowTwentyone.checked);
+    var GreenTwentyone = document.getElementById('GreenTwentyone');localStorage.setItem('GreenTwentyone', GreenTwentyone.checked);
+    var RedTwentytwo = document.getElementById('RedTwentytwo');localStorage.setItem('RedTwentytwo', RedTwentytwo.checked);
+    var YellowTwentytwo = document.getElementById('YellowTwentytwo');localStorage.setItem('YellowTwentytwo', YellowTwentytwo.checked);
+    var GreenTwentytwo = document.getElementById('GreenTwentytwo');localStorage.setItem('GreenTwentytwo', GreenTwentytwo.checked);
+    var RedTwentythree = document.getElementById('RedTwentythree');localStorage.setItem('RedTwentythree', RedTwentythree.checked);
+    var YellowTwentythree = document.getElementById('YellowTwentythree');localStorage.setItem('YellowTwentythree', YellowTwentythree.checked);
+    var GreenTwentythree = document.getElementById('GreenTwentythree');localStorage.setItem('GreenTwentythree', GreenTwentythree.checked);
+    }
+
+    function load(){
+      var RedOne = JSON.parse(localStorage.getItem('RedOne'));document.getElementById("RedOne").checked = RedOne;
+      var YellowOne = JSON.parse(localStorage.getItem('YellowOne'));document.getElementById("YellowOne").checked = YellowOne;
+      var GreenOne = JSON.parse(localStorage.getItem('GreenOne'));document.getElementById("GreenOne").checked = GreenOne;
+      var RedTwo = JSON.parse(localStorage.getItem('RedTwo'));document.getElementById("RedTwo").checked = RedTwo;
+      var YellowTwo = JSON.parse(localStorage.getItem('YellowTwo'));document.getElementById("YellowTwo").checked = YellowTwo;
+      var GreenTwo = JSON.parse(localStorage.getItem('GreenTwo'));document.getElementById("GreenTwo").checked = GreenTwo;
+      var RedThree = JSON.parse(localStorage.getItem('RedThree'));document.getElementById("RedThree").checked = RedThree;
+      var YellowThree = JSON.parse(localStorage.getItem('YellowThree'));document.getElementById("YellowThree").checked = YellowThree;
+      var GreenThree = JSON.parse(localStorage.getItem('GreenThree'));document.getElementById("GreenThree").checked = GreenThree;
+      var RedFour = JSON.parse(localStorage.getItem('RedFour'));document.getElementById("RedFour").checked = RedFour;
+      var YellowFour = JSON.parse(localStorage.getItem('YellowFour'));document.getElementById("YellowFour").checked = YellowFour;
+      var GreenFour = JSON.parse(localStorage.getItem('GreenFour'));document.getElementById("GreenFour").checked = GreenFour;
+      var RedFive = JSON.parse(localStorage.getItem('RedFive'));document.getElementById("RedFive").checked = RedFive;
+      var YellowFive = JSON.parse(localStorage.getItem('YellowFive'));document.getElementById("YellowFive").checked = YellowFive;
+      var GreenFive = JSON.parse(localStorage.getItem('GreenFive'));document.getElementById("GreenFive").checked = GreenFive;
+      var RedSix = JSON.parse(localStorage.getItem('RedSix'));document.getElementById("RedSix").checked = RedSix;
+      var YellowSix = JSON.parse(localStorage.getItem('YellowSix'));document.getElementById("YellowSix").checked = YellowSix;
+      var GreenSix = JSON.parse(localStorage.getItem('GreenSix'));document.getElementById("GreenSix").checked = GreenSix;
+      var RedSeven = JSON.parse(localStorage.getItem('RedSeven'));document.getElementById("RedSeven").checked = RedSeven;
+      var YellowSeven = JSON.parse(localStorage.getItem('YellowSeven'));document.getElementById("YellowSeven").checked = YellowSeven;
+      var GreenSeven = JSON.parse(localStorage.getItem('GreenSeven'));document.getElementById("GreenSeven").checked = GreenSeven;
+      var RedEight = JSON.parse(localStorage.getItem('RedEight'));document.getElementById("RedEight").checked = RedEight;
+      var YellowEight = JSON.parse(localStorage.getItem('YellowEight'));document.getElementById("YellowEight").checked = YellowEight;
+      var GreenEight = JSON.parse(localStorage.getItem('GreenEight'));document.getElementById("GreenEight").checked = GreenEight;
+      var RedNine = JSON.parse(localStorage.getItem('RedNine'));document.getElementById("RedNine").checked = RedNine;
+      var YellowNine = JSON.parse(localStorage.getItem('YellowNine'));document.getElementById("YellowNine").checked = YellowNine;
+      var GreenNine = JSON.parse(localStorage.getItem('GreenNine'));document.getElementById("GreenNine").checked = GreenNine;
+      var RedTen = JSON.parse(localStorage.getItem('RedTen'));document.getElementById("RedTen").checked = RedTen;
+      var YellowTen = JSON.parse(localStorage.getItem('YellowTen'));document.getElementById("YellowTen").checked = YellowTen;
+      var GreenTen = JSON.parse(localStorage.getItem('GreenTen'));document.getElementById("GreenTen").checked = GreenTen;
+      var RedEleven = JSON.parse(localStorage.getItem('RedEleven'));document.getElementById("RedEleven").checked = RedEleven;
+      var YellowEleven = JSON.parse(localStorage.getItem('YellowEleven'));document.getElementById("YellowEleven").checked = YellowEleven;
+      var GreenEleven = JSON.parse(localStorage.getItem('GreenEleven'));document.getElementById("GreenEleven").checked = GreenEleven;
+      var RedTwelve = JSON.parse(localStorage.getItem('RedTwelve'));document.getElementById("RedTwelve").checked = RedTwelve;
+      var YellowTwelve = JSON.parse(localStorage.getItem('YellowTwelve'));document.getElementById("YellowTwelve").checked = YellowTwelve;
+      var GreenTwelve = JSON.parse(localStorage.getItem('GreenTwelve'));document.getElementById("GreenTwelve").checked = GreenTwelve;
+      var RedThirteen = JSON.parse(localStorage.getItem('RedThirteen'));document.getElementById("RedThirteen").checked = RedThirteen;
+      var YellowThirteen = JSON.parse(localStorage.getItem('YellowThirteen'));document.getElementById("YellowThirteen").checked = YellowThirteen;
+      var GreenThirteen = JSON.parse(localStorage.getItem('GreenThirteen'));document.getElementById("GreenThirteen").checked = GreenThirteen;
+      var RedFourteen = JSON.parse(localStorage.getItem('RedFourteen'));document.getElementById("RedFourteen").checked = RedFourteen;
+      var YellowFourteen = JSON.parse(localStorage.getItem('YellowFourteen'));document.getElementById("YellowFourteen").checked = YellowFourteen;
+      var GreenFourteen = JSON.parse(localStorage.getItem('GreenFourteen'));document.getElementById("GreenFourteen").checked = GreenFourteen;
+      var RedFifthteen = JSON.parse(localStorage.getItem('RedFifthteen'));document.getElementById("RedFifthteen").checked = RedFifthteen;
+      var YellowFifthteen = JSON.parse(localStorage.getItem('YellowFifthteen'));document.getElementById("YellowFifthteen").checked = YellowFifthteen;
+      var GreenFifthteen = JSON.parse(localStorage.getItem('GreenFifthteen'));document.getElementById("GreenFifthteen").checked = GreenFifthteen;
+      var RedSixteen = JSON.parse(localStorage.getItem('RedSixteen'));document.getElementById("RedSixteen").checked = RedSixteen;
+      var YellowSixteen = JSON.parse(localStorage.getItem('YellowSixteen'));document.getElementById("YellowSixteen").checked = YellowSixteen;
+      var GreenSixteen = JSON.parse(localStorage.getItem('GreenSixteen'));document.getElementById("GreenSixteen").checked = GreenSixteen;
+      var RedSeventeen = JSON.parse(localStorage.getItem('RedSeventeen'));document.getElementById("RedSeventeen").checked = RedSeventeen;
+      var YellowSeventeen = JSON.parse(localStorage.getItem('YellowSeventeen'));document.getElementById("YellowSeventeen").checked = YellowSeventeen;
+      var GreenSeventeen = JSON.parse(localStorage.getItem('GreenSeventeen'));document.getElementById("GreenSeventeen").checked = GreenSeventeen;
+      var RedEightteen = JSON.parse(localStorage.getItem('RedEightteen'));document.getElementById("RedEightteen").checked = RedEightteen;
+      var YellowEightteen = JSON.parse(localStorage.getItem('YellowEightteen'));document.getElementById("YellowEightteen").checked = YellowEightteen;
+      var GreenEightteen = JSON.parse(localStorage.getItem('GreenEightteen'));document.getElementById("GreenEightteen").checked = GreenEightteen;
+      var RedNineteen = JSON.parse(localStorage.getItem('RedNineteen'));document.getElementById("RedNineteen").checked = RedNineteen;
+      var YellowNineteen = JSON.parse(localStorage.getItem('YellowNineteen'));document.getElementById("YellowNineteen").checked = YellowNineteen;
+      var GreenNineteen = JSON.parse(localStorage.getItem('GreenNineteen'));document.getElementById("GreenNineteen").checked = GreenNineteen;
+      var RedTwenty = JSON.parse(localStorage.getItem('RedTwenty'));document.getElementById("RedTwenty").checked = RedTwenty;
+      var YellowTwenty = JSON.parse(localStorage.getItem('YellowTwenty'));document.getElementById("YellowTwenty").checked = YellowTwenty;
+      var GreenTwenty = JSON.parse(localStorage.getItem('GreenTwenty'));document.getElementById("GreenTwenty").checked = GreenTwenty;
+      var RedTwentyone = JSON.parse(localStorage.getItem('RedTwentyone'));document.getElementById("RedTwentyone").checked = RedTwentyone;
+      var YellowTwentyone = JSON.parse(localStorage.getItem('YellowTwentyone'));document.getElementById("YellowTwentyone").checked = YellowTwentyone;
+      var GreenTwentyone = JSON.parse(localStorage.getItem('GreenTwentyone'));document.getElementById("GreenTwentyone").checked = GreenTwentyone;
+      var RedTwentytwo = JSON.parse(localStorage.getItem('RedTwentytwo'));document.getElementById("RedTwentytwo").checked = RedTwentytwo;
+      var YellowTwentytwo = JSON.parse(localStorage.getItem('YellowTwentytwo'));document.getElementById("YellowTwentytwo").checked = YellowTwentytwo;
+      var GreenTwentytwo = JSON.parse(localStorage.getItem('GreenTwentytwo'));document.getElementById("GreenTwentytwo").checked = GreenTwentytwo;
+      var RedTwentythree = JSON.parse(localStorage.getItem('RedTwentythree'));document.getElementById("RedTwentythree").checked = RedTwentythree;
+      var YellowTwentythree = JSON.parse(localStorage.getItem('YellowTwentythree'));document.getElementById("YellowTwentythree").checked = YellowTwentythree;
+      var GreenTwentythree = JSON.parse(localStorage.getItem('GreenTwentythree'));document.getElementById("GreenTwentythree").checked = GreenTwentythree;
+    }
+
+    function wis(){
+      location.reload();
+      localStorage.clear()
+    }
+
+    load();
+</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script>
+    $(document).ready (function () {
+      $("*[data-store]").each(function () {
+        $(this).val(localStorage.getItem("item-" + $(this).attr("data-store")));
+      });
+
+      $("*[data-store]").on("keyup", function (itm) {
+        localStorage.setItem ("item-" + $(this).attr("data-store"), $(this).val());
+      })
+    })
+  </script>
+  <script>
+  $("#SetFix").click(function(){
+    $("#myTable").toggle();
+    $(".Setfex").toggle();
+    $("#myInput").toggle();
+  });
+  </script>
+  </body>
+</html>
